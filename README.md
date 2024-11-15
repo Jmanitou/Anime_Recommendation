@@ -1,4 +1,6 @@
 # Anime Recommendation
+## Author
+Jackson Robbins: https://github.com/Jmanitou
 ## Overview
 Here is the [presentation](https://docs.google.com/presentation/d/1wMxyKGHZa28VmZYhw6aPmIk89Zt86lxi4fLpRSPwyyw/edit?usp=sharing).
 ## Business Problem
