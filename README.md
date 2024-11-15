@@ -9,15 +9,20 @@ I am working with a client who is a business that wants to recommend anime to so
 <img src="images/OverallInterest.jpg" alt="OverallMedia" width="400"/>
 
 ## Data Source
-The data was sourced from [My Anime List](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020/discussion?sort=hotness), which is a site that allows users to log the anime they have watched, dropped or are planning to watch. The data is up to date till February 2020. The data contains 17,562 different anime and 325,772 different users, with a combined total of 109,224,747 reviews. <br/>
+The data was sourced from [My Anime List](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020/discussion?sort=hotness), which is a site that allows users to log the anime they have watched, dropped or are planning to watch. The data is up to date till February 2020. The data contains 17,562 different anime and 325,772 different users, with a combined total of 109,224,747 reviews. For this project only the anime and rating_complete databases were used. Download the data from the site and unzip it in the data folder to run the code. <br/>
 ![MyAnimeList](images/FallAnime.PNG)
 ## Results
 The code was able to predict a user's rating within a 1.2 error. Then it was able to recommend 5 different anime that a user might want to watch.
 ## Project Structure
 ```
 ├── data
-│   ├── MyAnimeList.csv
-│   └── MyAnimeList.csv
+│   ├── MyAnimeList
+│   ├──   ├── anime.csv
+│   ├──   ├── anime_with_synopsis.csv
+│   ├──   ├── animelist.csv
+│   ├──   ├── rating_complete.csv
+│   ├──   ├── watching_status.csv
+│   └── MyAnimeList.zip
 ├── images
 │   ├── AnimeAllType.PNG
 │   ├── AnimeRemovedType.PNG
